@@ -8,9 +8,12 @@ function getIt() {
 function frameIt() {
   $('img').on("load", function() {
     this.className += 'tasty';
-  })
+  });
 }
 
+function pressIt() {
+  $('')
+}
 
 $(document).ready(function(){
 
